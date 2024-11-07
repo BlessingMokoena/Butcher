@@ -1,0 +1,215 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 100px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+header nav a:hover {
+  color: #666;
+}
+
+/* Hero Section Styles */
+
+.hero {
+  background-image: url('https://placehold.co/1920x1080');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+.hero h2 {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.hero div {
+  width: 24px;
+  height: 1px;
+  background-color: #fff;
+  margin-bottom: 1rem;
+}
+
+/* Main Content Styles */
+
+#main-content {
+  display: none;
+}
+
+/* Dark Mode Styles */
+
+.dark {
+  background-color: #000;
+}
+
+.dark header {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.dark header h1 {
+  color: #000;
+}
+
+.dark nav a {
+  color: #000;
+}
+
+.dark nav a:hover {
+  color: #666;
+}
+
+.dark .hero {
+  background-color: #000;
+}
+
+.dark .hero h2 {
+  color: #000;
+}
+
+.dark .hero h1 {
+  color: #000;
+}
+
+.dark .hero div {
+  background-color: #000;
+}
+
+#main-content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+nav {
+  display: flex;
+  gap: 20px; /* add 20px space between each link */
+}
+/* style.css */
+.who-we-are-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.who-we-are-container h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.who-we-are-container p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.back-to-home {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-to-home:hover {
+  background-color: #3e8e41;
+}
+.my-element {
+  background-image: url('./images/meat.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+@font-face {
+  font-family: 'Brush Font';
+  src: url('./fonts/brush-font.ttf') format('truetype');
+}
+
+.bold-paint-like {
+  font-family: 'Brush Font', sans-serif;
+  font-weight: bold;
+  font-size: 70px; /* adjust font size to your liking */
+  
+}
+.contact-info {
+  color: #ffffff; /* white text color */
+  font-weight: bold;
+  font-size: 24px; /* adjust font size to your liking */
+}
+body {
+  color: white;
+}
